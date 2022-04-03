@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function Portfolio() {
   return (
@@ -7,7 +7,7 @@ function Portfolio() {
         <p className='portHeading'>My Portfolio</p>
         <div className='hrdiv'></div>
         <div className='projectBOX'>
-            <Link to='https://akshaygale.github.io/backtracking1.0/'>  <img src='/Images/backtracking.png' className='projectimage' alt='project1'></img>     </Link>
+            <NavLink to='https://akshaygale.github.io/backtracking1.0/'>  <img src='/Images/backtracking.png' className='projectimage' alt='project1'></img>    </NavLink>
             <Link to='https://akshaygale.github.io/css-assignment-6/'>  <img src='/Images/cssproject.png' className='projectimage' alt='project2'></img>  </Link>
             <Link to='https://akshaygale.github.io/todo-app-ui-web/'>  <img src='/Images/todoweb.png' className='projectimage' alt='project3'></img>   </Link>
             <Link to='https://akshaygale.github.io/todo_app_js_project/'>  <img src='/Images/jsblog.png' className='projectimage' alt='project4'></img>   </Link>
