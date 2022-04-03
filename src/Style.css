@@ -7,6 +7,7 @@ body{
     background-color: darkcyan;
     height: 60px;
     padding-top: 10px;
+    /* position: fixed; */
 }
 .headerHeading{
     font-size: xx-large;
@@ -74,6 +75,7 @@ body{
     background-color: lightcoral;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 .mypic{
     width: 300px;
@@ -331,6 +333,7 @@ body{
     padding: 5px 10px 5px 10px;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 .formBox{
     background-color: lightpink;
@@ -344,4 +347,15 @@ body{
     flex-wrap: wrap;
     margin-left: 50px;
     margin-top: 40px;
+}
+
+
+/* FOOTER FILE */
+
+.footer{
+    height: 50px;
+    text-align: center;
+    background-color: #09BCAB;
+    padding-top: 25px;
+    font-weight: 500;
 }

@@ -5,6 +5,7 @@ import Home from './Home';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
             <Route path='/portfolio' element={<Portfolio/>}/>
             <Route path='/resume' element={<Resume/>}/>
             <Route path='/contact' element={<Contact/>}/>
+            
         </Routes>
+      <Footer/>
     </Router>
   );
 }

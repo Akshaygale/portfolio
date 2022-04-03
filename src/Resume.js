@@ -34,7 +34,7 @@ function Resume() {
       <p className='clgDetails'>Maharashtra State Board of  Secondary Education</p>
       <p className='sencondEndu3 yearpassout'>2013-2014</p>
       </div>
-    <p className='infoEDU'>Bansial Katariya High School, Nagpur Divisional Board, Hinganghat. <i>  Percentile- 78</i></p>
+    <p className='infoEDU'>Bansilal Katariya High School, Nagpur Divisional Board, Hinganghat. <i>  Percentile- 78</i></p>
 
     <div className='verticalLine'/>
 </div>
